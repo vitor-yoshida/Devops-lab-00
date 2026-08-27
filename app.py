@@ -6,6 +6,13 @@ def saudacao(nome):
     """Retorna uma mensagem de saudação personalizada."""
     return f"Olá, {nome}! Bem-vindo ao pipeline DevOps."
 
+
+
+def multiplicacao(a, b):
+    return a * b + 1  # bug proposital
+ 
+
+
 if __name__ == "__main__":
     print(saudacao("ECDE"))
     print(f"2 + 3 = {soma(2, 3)}")
