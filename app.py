@@ -9,9 +9,7 @@ def saudacao(nome):
 
 
 def multiplicacao(a, b):
-    return a * b + 1  # bug proposital
- 
-
+    return a * b
 
 if __name__ == "__main__":
     print(saudacao("ECDE"))
